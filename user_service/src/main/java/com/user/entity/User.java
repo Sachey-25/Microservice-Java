@@ -3,16 +3,14 @@ package com.user.entity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User {
-	
+public class User {	
 	private Long userId;
 	private String username;
-	private String phone;
+	private String phone; 
 	
 	List<Contact> contacts = new ArrayList<>();
 
 	public User(Long userId, String username, String phone, List<Contact> contacts) {
-		super();
 		this.userId = userId;
 		this.username = username;
 		this.phone = phone;
@@ -20,7 +18,6 @@ public class User {
 	}
 
 	public User(Long userId, String username, String phone) {
-		super();
 		this.userId = userId;
 		this.username = username;
 		this.phone = phone;

@@ -1,4 +1,4 @@
-package com.user.entity;
+package com.contact.enity;
 
 public class Contact {
 	
